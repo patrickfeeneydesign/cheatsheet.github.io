@@ -99,7 +99,7 @@ a:hover {
 }
 .container:hover {
     background-color:#f41f1e;
-    box-shadow: 1vw 1vw;
+    /* box-shadow: 1vw 1vw; */
 }
 .container:hover p {
     color: gainsboro;
