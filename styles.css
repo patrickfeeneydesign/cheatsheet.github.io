@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: rgb(247, 245, 236);
+    background-color: #f7f1ec;
     margin-left: 7vw;
     margin-right: 7vw;
 }
@@ -79,7 +79,7 @@ h1 span {
     padding: 2px;
 }
 a:hover {
-    background-color: orangered;
+    background-color: #f41f1e;
     color: black !important;
 }
 /*
@@ -98,7 +98,7 @@ a:hover {
     border-top: 0;
 }
 .container:hover {
-    background-color:orangered;
+    background-color:#f41f1e;
 }
 .container:hover p {
     color: gainsboro;
@@ -124,13 +124,13 @@ p {
     color: black;
 }
 span {
-    border: 0.8vw solid orangered;
+    border: 0.8vw solid #f41f1e;
     border-radius: 50%;
     z-index: 10;
 }
 .blank {
     height: 6vw;
-    background-color: orangered;
+    background-color: #f41f1e;
     border: 0.2vw solid black;
     border-top: 0;
 }
