@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/epj3mjc.css">
+    <link rel="stylesheet" href="/Users/patrickfeeney/Desktop/Post College/code/html-css-cheatsheet-starting/styles.css">
+    <title>Cheat Sheet</title>
+</head>
+<body>
+    <nav>
+    <div class="header">
+        <h1 id="html"><div id="red"><span>Web Development</span></div><div id="black"> Sheet For Cheaters</div></h1>
+    </div>
+</nav>
+    <div class="nav">
+        <ul>
+            <li id="title"><a href="">HOME</a></li>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+        </ul>
+    </div>
+    <!--<div id="dec">CHEAT SHEET</div> -->
+    <article>
+        <div class="row">
+            <div class="container">
+                 <h2>HTML ul</h2>
+                <p>Style your ul inside a nav div, then proceed. In unordered list each element in the list is defined using li tag. Syntax: ul content ul Attributes of unordered list: List-style-type: This attribute is used to specifies the bullet style that will be used as the list item marker.</p>
+            </div>
+            <div class="container">
+                <h2>HTML Image</h2>
+                <p>The &lt;img&gt; element is super important. Use <strong>src="..."</strong> for the source, use the alt="..." for alternative text. You can style inline by using the .div method I outline in css.</p>
+            </div>
+            <div class="container">
+                <h2>HTML ID</h2>
+                <p>The id="..." element. the <strong>most specific</strong> way to target an element, use  #id in css. If youre having trouble adding a style, especially in larger files it may be because an id tag is overridding it. Stay vigilant!</p>
+            </div>
+        </div>
+        <div id="css" class="row">
+            <div class="container">
+                <h2>Style Sheet</h2>
+                <p>The default html styling will have attributes for your padding and margin, making styling much more difficult. You can reset your stylesheet using * { margin 0; padding 0; }</p>
+            </div>
+            <div class="container">
+                <h2>Variable Width</h2>
+                <p>When using fixed widths, you run the risk of a mobile site that is fully illegible. By using 'vw' sizes you can make each element variable to the width of the page, including margins, text, shapes and more!</p>
+            </div>
+            <div class="container">
+                <h2>Nav Bar</h2>
+                <p>To style a nav, use the following. First .nav is for styling the bar itself, make this fixed. Next .nav ul is for removing the bullet style using list-style-type. Next .nav ul li is for styling the position of the buttons, use float: left;. Finally .nav ul li a is for styling the individual buttons.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <h2>In-Line <br>Elements</h2>
+                <p>For inline elements, use .row and child .container and style as follows. First .row { display: flex; } and then .container { position: inline-block; </p>
+            </div>
+            <div class="container">
+                <h2>NoWrap</h2>
+                <p>5. To prevent an element from skipping to extra lines, use the white space command. In css use white-space: nowrap; and to will stay on the defined line.</p>
+            </div>
+            <div class="container">
+                <h2>Adding Fonts</h2>
+                <p>6. You can add fonts using a stylesheet generated and hosted by Adobe Fonts or Google Fonts. You can also add a font using the @font-face command. <strong>Get creative!!</strong></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <h2>Text<br>Decoration</h2>
+                <p>You want to underline your text? Or maybe you want to strike-through? All of these styles are nestled under the text-decoration attribute in css. Try it out!</p>
+            </div>
+            <div class="container">
+                <h2>Align Text</h2>
+                <p>Want to align your text? Use the align-text attribute and specify 'justify' or other and check out the results!</p>
+            </div>
+        </div>
+        <!--
+        <div class="row2">
+            <div class="container2">
+                 <h2>HTML Span</h2>
+                <p>The &lt;span&gt; element. <strong>Inline styling attribute,</strong> can be used to add styles for text, may be combined with class or id</p>
+            </div>
+            <div class="container2">
+                <h2>HTML Anchor</h2>
+                <p>The &lt;a&gt; element. Use <strong>href="..."</strong> for the source, and write the text (or nestle another element to be the link)</p>
+            </div>
+            <div class="container2">
+                <h2>HTML Video</h2>
+               <p>The &lt;video&gt; element. The <strong>src</strong> attribute will contain the URL to the video. Adding the <strong>controls</strong> attribute will display video controls in the media player. Include text without a tag such as 'Video Not Supported' for alt</p>
+           </div>
+         <div class="row">
+            <div class="container">
+                 <h2>HTML Target</h2>
+                <p>The target="..." attribute. Used to define how a new page will open in a link or &lt;a&gt; element. target="_blank" will open new window.</p>
+            </div>
+            <div class="container">
+                <h2>Page Links</h2>
+                <p>The &lt;a href="..."&gt; element. Use <strong>id="..."</strong> inside the element you want to navigate to.</p>
+            </div>
+            <div class="container">
+                 <h2>HTML Head</h2>
+                <p>The &lt;title&gt; element. Use at the start of doc <strong>inside</strong> the &lt;head&gt; section, will display name in browser window. Here you can link your css stylesheet using <strong>href="style.css"</strong> and <strong>rel="stylesheet"</strong></p>
+            </div>
+        </div>
+        </div>
+        <div class="Header">
+            <h1 id="css">CSS</h1>
+        </div>
+        <div>
+            <div class="cont">
+                 <h2>Css Nav Bar</h2>
+                <p>Use an <strong>ul</strong> within a nav div. Use <strong>nav { position: fixed; }</strong> to keep it at the top of the page. Style the <strong>nav ul { list-style-type: none; }</strong> to remove the bullet points. Style the <strong>nav ul li { float: left; }</strong> to display inline. Use <strong>nav ul li a {...}</strong> to style your buttons.</p>
+            </div>
+            <div class="cont">
+                <h2>Inline Display CSS</h2>
+                <p>Contain your html in <strong>class="row"</strong> div's and <strong>class="container"</strong> div's. Then in CSS style <strong>.row { display: flex; }</strong> and <strong>.container { posiiton: inline-block; }.</strong> This will display your boxes in a line, and allow for resizing.</p>
+            </div>
+            <div class="cont">
+                 <h2>Max/Min Size</h2>
+                <p>When styling a box, use <strong>min-width</strong> to prevent the box from becoming too thin. When styling an image use <strong>{ max-height: 300px; }</strong> and set the <strong>{ max-width: auto; }</strong> or vice versa in order to resize without warping.</p>
+            </div>
+        -->
+    </article>
+    <footer>
+
+    </footer>
+</body>
+</html>
