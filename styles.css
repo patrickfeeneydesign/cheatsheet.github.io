@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: gainsboro;
+    background-color: #FBF8F7;
     margin-left: 4vw;
     margin-right: 4vw;
 }
@@ -50,7 +50,7 @@ h1 span {
 /* NAV BAR 
 */
 .nav {
-    background-color: gainsboro;
+    background-color: #FBF8F7;
     border-top: 0.2vw solid black;
     border-bottom: 0.2vw solid black;
     border-width: calc(0.2vw + 1px);
