@@ -99,13 +99,16 @@ a:hover {
 }
 .container:hover {
     background-color:#f41f1e;
-     box-shadow: 10px 10px;
+    box-shadow: 1vw 1vw;
 }
 .container:hover p {
     color: gainsboro;
 }
 .container:hover h2 {
     color: black;
+}
+.container:hover .blank {
+    z-index: 1;
 }
 h2 {
     color: black;
@@ -133,5 +136,10 @@ span {
     height: 6vw;
     background-color: #f41f1e;
     border: 0.2vw solid black;
+    /* border-top: 0; */
+    margin-top: 2vw;
+}
+#nomargin {
+    margin-top: 0;
     border-top: 0;
 }
